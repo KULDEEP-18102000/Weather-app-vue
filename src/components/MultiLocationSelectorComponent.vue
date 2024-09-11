@@ -1,5 +1,5 @@
 <template>
- <div class="m-10">
+ <div class="flex flex-row space-x-4 align-center items-center justify-center m-10">
     <label for="cars">Choose a Multiple Locations :</label>
 
 <select name="cities" id="cities" multiple v-model="selectedCities" @change="onCitiesChange">

@@ -1,6 +1,7 @@
 <template>
-  
+  <div>
   <WeatherComponent/>
+  </div>
 </template>
 
 <script>

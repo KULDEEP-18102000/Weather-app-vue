@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 bg-grey border border-gray-300 shadow-lg">
+  <div class="p-4 bg-grey border border-gray-300 shadow-lg bg-yellow-200 rounded-lg">
     <div flex flex-col space-x-4>
     <p class="font-bold">Todays</p>
     <div class="flex flex-row space-x-4 items-center justify-center">

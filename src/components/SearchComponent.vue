@@ -1,8 +1,8 @@
 <template>
-<div class="flex flex-row space-x-4 align-center justify-center m-5">
+<div class="flex flex-row space-x-4 align-center justify-center m-5 border border-gray-300 rounded-lg bg-gray-200">
 
  <div>
-    <label for="dropdown">Location:</label>
+    <label for="dropdown">Location: </label>
     <select id="dropdown" @change="onCityChange">
       <option value="Delhi">Delhi</option>
       <option value="Moscow">Moscow</option>
@@ -15,12 +15,12 @@
 
 
   <div class="mx-5">
-    <label for="dateInput">From Date:</label>
+    <label for="dateInput">From Date: </label>
     <input type="date" id="dateInput" v-model="selectedDate" @change="onFromDateChange"/>
   </div>
 
   <div class="mx-5">
-    <label for="dateInput">To Date:</label>
+    <label for="dateInput">To Date: </label>
     <input type="date" id="dateInput"  @change="onToDateChange"/>
   </div>
 

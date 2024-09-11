@@ -1,6 +1,6 @@
 <template>
   
-  <div class="p-4 bg-grey border border-gray-300 shadow-lg my-5">
+  <div class="p-4 bg-grey  my-5">
     <div flex flex-col space-x-4> 
     <p>Random Text</p> 
     <p>Improve him believe opinion offered met and cheered forbade.Freindly as stranger speedly by recurred Son Interest Sir 

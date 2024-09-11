@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex align-center justify-center p-4 bg-gray-100">
     <Bar
     id="my-chart-id"
     :options="chartOptions"
@@ -16,7 +16,7 @@ import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, Li
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
 
 export default {
-  name: 'BarChart',
+  name: 'BarChart', 
   components: { Bar },
   
 
