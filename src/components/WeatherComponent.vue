@@ -1,15 +1,15 @@
 <template>
-<div class="flex flex-col space-x-4 align-center justify-center m-10">
+<div class="flex flex-col space-x-4 align-center items-center justify-center m-10">
 
 <SearchComponent/>
-  <div class="flex flex-col md:flex-row space-x-4 align-center justify-center m-10">
+  <div class="flex flex-col md:flex-row space-x-4 align-center items-center justify-center m-10">
 
   <CurrentWeatherComponent/>
 
    
 
 
-    <div class="flex flex-col space-x-4">
+    <div class="flex flex-col align-center items-center justify-center space-x-4 m-3">
 
 <WeatherTimeComponent/>
     
